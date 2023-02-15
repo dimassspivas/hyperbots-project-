@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Orienta&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;1000&display=swap');
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../public/img/home_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.5);
+  align-items: center;
+  padding: 20px 15px 35px 15px;
+}
+
+.logo {
+  font-family: "Orienta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.87);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sign-in > span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #686868;
+}
+
+.sign-in > img {
+  margin-left: 4px;
+  width: 27px;
+}
+
+.sign-in {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: auto;
+  background: #e7e7e7;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+}
+
+.big-card {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.big-card-price {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.big-card-price .discount {
+  margin-bottom: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 40px;
+  color: rgba(197, 22, 54, 0.87);
+}
+
+.big-card-price .price {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.big-card-price .old-price {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 625;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: rgba(146, 141, 141, 0.87);
+  position: relative;
+}
+
+.big-card-price .old-price::before {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  content: "";
+  border-bottom: 1px solid #c51636;
+  transform: rotate(21deg);
+}
+
+.big-card-price > a{
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+
+.add-product-btn {
+  border: none;
+  background: #C51636;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  align-self:flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-card-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.big-card-img > span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 40px;
+  color: rgba(255, 248, 248, 0.87);
+  text-transform: uppercase;
+}
+.big-card-img > img {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.card > img {
+  width: 100%;
+}
+
+.card .card-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.card .card-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.card .card-desc > span:first-child {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: start;
+  letter-spacing: 0.03em;
+
+  color: #171717;
+}
+
+.card .card-desc > span:last-child {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: start;
+  color: #ab132f;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.search {
+  height: 80px;
+  width: 100%;
+  padding: 0px 60px;
+  border: 1px solid #d0cfcf;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: url("../public/img/search.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 15px;
+}
+
+.footer {
+  background: #efeeee;
+  border-radius: 20px 20px 0px 0px;
+  height: 80px;
+  width: 100%;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer-img {
+  width: 50px;
+}
