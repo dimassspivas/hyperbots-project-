@@ -15,9 +15,10 @@ body {
 }
 
 .header {
-  background: rgba(255, 255, 255, 0.5);
+  background-color: #EFEEEE;
   align-items: center;
   padding: 20px 15px 35px 15px;
+  opacity: 0.85;
 }
 
 .logo {
@@ -59,6 +60,13 @@ body {
 
 .big-card {
   background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.big-card:active {
+  background-color: rgb(23, 23, 23);
   color: white;
   padding: 20px;
   border-radius: 15px;
@@ -218,6 +226,7 @@ body {
   position: fixed;
   bottom: 0;
   text-align: center;
+  opacity: 0.95;
 }
 
 .footer-img {

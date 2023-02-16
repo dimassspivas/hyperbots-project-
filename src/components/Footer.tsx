@@ -9,9 +9,9 @@ const Footer: FC<IFooterProps> = () => {
         <div className="col">
           <img className="footer-img" src="/img/home.png" alt="" />
         </div>
-        <div className="col">
+        <a href="" className="col">
           <img className="footer-img" src="img/list.png" alt="" />
-        </div>
+        </a>
         <div className="col">
           <img  className="footer-img" src="/img/search-footer.png" alt="" />
         </div>
